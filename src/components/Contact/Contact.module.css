@@ -11,7 +11,7 @@
   height: 60px;
   border-radius: 8px;
   margin: 10px;
-  background: linear-gradient(to right, rgb(76, 0, 255), rgb(21, 255, 0));
+  background-color: #004d40;
 }
 .contactParagraph {
   display: flex;
@@ -19,6 +19,7 @@
   font-size: 18px;
   flex-wrap: wrap;
   max-width: 160px;
+  color: rgb(253, 255, 222);
 }
 
 .contactButton {
