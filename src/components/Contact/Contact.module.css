@@ -1,0 +1,38 @@
+.contactItem {
+  font-family: "Montserrat";
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border: 2px solid #000;
+  width: 90%;
+  max-width: 22em;
+  height: 60px;
+  border-radius: 8px;
+  margin: 10px;
+  background: linear-gradient(to right, rgb(76, 0, 255), rgb(21, 255, 0));
+}
+.contactParagraph {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  flex-wrap: wrap;
+  max-width: 160px;
+}
+
+.contactButton {
+  width: 60px;
+  height: 30px;
+  height: auto;
+  width: 80px;
+  display: block;
+  margin: 10px 0;
+  padding: 12px;
+  border: 1px solid #478f89;
+  border-radius: 8px;
+  background-color: rgb(253, 255, 222);
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
